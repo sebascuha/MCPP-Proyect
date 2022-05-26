@@ -45,3 +45,5 @@ Aqui algunas visualizaciones de los resultados:
 ![dispersion](https://user-images.githubusercontent.com/105007314/170346527-7eb205c8-74a9-4152-8867-7ea1a31c8f94.png)
 
 ![correlacion](https://user-images.githubusercontent.com/105007314/170346550-1dbd7eaa-4294-48b3-a8dc-8087c1e2a6ee.png)
+
+Para más graficas: https://app.powerbi.com/groups/me/reports/2b10a635-9570-4e48-a574-b776ee04d237/ReportSection
