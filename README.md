@@ -22,16 +22,14 @@ Para este proyecto utilicé varias bases de datos provenientes de distintas fuen
 
 El objetivo de este proyecto es entneder la relación de la violencia y los desplazamientos forzados con el ingreso per capita departamental. Esto debido a que la naturaleza del conflinco en los distintos territorios es diferente, muchas veces surge como protesta social hacia un proyecto de Estado distinto al vigente y en otros casos es promovido por intereses economicos para propositos relativamente legales e ilegales.
 ## Métodos Utilizados
-1. Webstrapping para descargar bases de datos
-* Utilizando Selenium para crea un bot que permita descargar las bases de datos.
-* Utilizando el driver de Chrome.
-2. Manejo, limpieza y union de distintas bases de datos
+
+1. Manejo, limpieza y union de distintas bases de datos
 * Mediante `Pandas` subí las distintas bases de datos.
 * Consolidé las 6 distintas bases de datos por medio de:
     * Agruparlas a nivel departamental debido a que como provenian de diferentes fuentes algunas estaban desagregadas a nivel municipal y indexadas al año.
     * Se necesitava que todas las bases estuvieran en formato 'larg'(long) para formar el panel de datos.
 * Usando `merge` uní las diferentes bases de datos para consolidar un Panel de datos que contuviera toda la informacion relevente de confrontaciones bélicas, atentados por explosivos, masacres, desplazamientos forzados y ingreso per capita deflactado.
-3. Visualizacion de datos utilizanzo `seaborn`,`matplotlib`,`PowerBI` y `R`
+2. Visualizacion de datos utilizanzo `seaborn`,`matplotlib`,`PowerBI` y `R`
 ## Hallazgos
 * La violencia ha tendido tendencias a disminutir en el periodo de 2005 a 2019
 * El PIB per capita tiene corelacion negativa con los tipos de violencia (atentados terroristas, ataques belicos y mesacres) y con el desplazamiento forzado
